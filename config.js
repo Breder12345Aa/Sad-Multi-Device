@@ -3,10 +3,7 @@ import { fileURLToPath } from 'url'
 import { watchFile, unwatchFile } from 'fs'
 import moment from 'moment-timezone'
 
-global.owner = [
-  ['+62 831-8332-1692'],
-  ['62 831-8332-1692', 'O w n e r', true],
-  ['+62 895-3864-45819', 'Bot', true],
+global.owner = ['+62 831-8332-1692', 'owner', true],
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
